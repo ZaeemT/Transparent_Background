@@ -49,6 +49,7 @@ def download():
         img_bytes = base64.b64decode(img_data)
         img_io = io.BytesIO(img_bytes)
         img_io.seek(0)
+        session.clear()
         return send_file(img_io, mimetype='image/png', as_attachment=True, download_name='processed_image.png')
     else:
         flash('No image to download')
