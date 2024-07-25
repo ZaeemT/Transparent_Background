@@ -136,3 +136,4 @@ dmypy.json
 
 # Flask sessions
 flask_session/
+.vercel
