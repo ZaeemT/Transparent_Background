@@ -1,7 +1,6 @@
 from flask import Flask, session, send_file, render_template, request, flash, url_for, redirect
 from flask_session import Session
 from werkzeug.utils import secure_filename
-import cv2
 from PIL import Image
 from rembg import remove
 import base64
