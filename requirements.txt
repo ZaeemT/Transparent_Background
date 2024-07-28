@@ -6,4 +6,4 @@ numpy>=1.25.2
 Pillow>=10.2.0
 rembg>=2.0.56
 Werkzeug>=3.0.3
-gunicron>=22.0.0
+gunicorn>=22.0.0
